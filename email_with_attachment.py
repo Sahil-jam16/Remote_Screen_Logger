@@ -6,9 +6,9 @@ from email.mime.text import MIMEText
 from PIL import Image
 import imghdr
 
-sender = "sahiljamadar16@gmail.com"
-receiver = "sahiljamadar16@gmail.com"
-pwd = "ylcswgzdpiojzgoo"
+sender = " "
+receiver = " "
+pwd = " "
 sub = "Testing of Screen Logger prototype "
 body = "This is a testing for sending mail with attachment in python"
 
